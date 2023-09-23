@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: 'input-manager!'
+    summary: InputManager
+    name: 'input-manager'
+    fullName: 'input-manager'
+    langs:
+      - typeScript
+    type: package
+    alias:
+      - input-manager
+    children:
+      - 'input-manager!Common:interface'
+      - 'input-manager!Main:interface'
+      - 'input-manager!MainImpl:class'
+references:
+  - uid: 'input-manager!Common:interface'
+    name: Common
+  - uid: 'input-manager!Main:interface'
+    name: Main
+  - uid: 'input-manager!MainImpl:class'
+    name: MainImpl

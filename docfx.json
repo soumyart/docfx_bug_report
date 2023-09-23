@@ -1,0 +1,22 @@
+{
+  "build": {
+    "template": ["default", "modern"],
+    "content": [
+      {
+        "files": ["**/**/*.yml", "**/*.md"],
+        "src": "obj/yml",
+        "dest": "api"
+      }
+    ],
+    "resource": [],
+    "exportRawModel": true,
+    "rawModelOutputFolder": "obj/raw",
+    "exportViewModel": true,
+    "viewModelOutputFolder": "obj/view",
+    "globalMetadata": {
+      "_appTitle": "API Reference",
+      "_enableNewTab": true
+    },
+    "output": "_site"
+  }
+}

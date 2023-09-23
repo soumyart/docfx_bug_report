@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: 'input-manager!MainImpl:class'
+    name: MainImpl
+    fullName: MainImpl
+    langs:
+      - typeScript
+    type: class
+    implements:
+      - 'input-manager!Main:interface'
+    package: 'input-manager!'
+    syntax:
+      content: 'export declare class MainImpl implements Main '
+    alias:
+      - 'input-manager!MainImpl'
+      - 'MainImpl:class'
+      - MainImpl
+    children:
+      - 'input-manager!MainImpl#name:member'
+      - 'input-manager!MainImpl#value:member'
+  - uid: 'input-manager!MainImpl#name:member'
+    name: name
+    fullName: MainImpl.name
+    langs:
+      - typeScript
+    type: property
+    syntax:
+      content: 'name: string;'
+      return:
+        type:
+          - string
+    parent: 'input-manager!MainImpl:class'
+    alias:
+      - 'input-manager!MainImpl#name'
+      - 'MainImpl#name:member'
+      - 'MainImpl#name'
+      - 'name:member'
+      - name
+  - uid: 'input-manager!MainImpl#value:member'
+    name: value
+    fullName: MainImpl.value
+    langs:
+      - typeScript
+    type: property
+    syntax:
+      content: 'value: string;'
+      return:
+        type:
+          - string
+    parent: 'input-manager!MainImpl:class'
+    alias:
+      - 'input-manager!MainImpl#value'
+      - 'MainImpl#value:member'
+      - 'MainImpl#value'
+      - 'value:member'
+      - value
+references:
+  - uid: 'input-manager!Main:interface'
+    name: Main
+  - uid: string

@@ -1,0 +1,13 @@
+items:
+  - name: Input Manager reference
+    uid: input-manager-api
+    items:
+      - name: input-manager
+        uid: 'input-manager!'
+        items:
+          - name: Common
+            uid: 'input-manager!Common:interface'
+          - name: Main
+            uid: 'input-manager!Main:interface'
+          - name: MainImpl
+            uid: 'input-manager!MainImpl:class'

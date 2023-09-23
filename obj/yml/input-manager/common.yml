@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: 'input-manager!Common:interface'
+    name: Common
+    fullName: Common
+    langs:
+      - typeScript
+    type: interface
+    package: 'input-manager!'
+    syntax:
+      content: 'export interface Common '
+    alias:
+      - 'input-manager!Common'
+      - 'Common:interface'
+      - Common
+    children:
+      - 'input-manager!Common#name:member'
+  - uid: 'input-manager!Common#name:member'
+    name: name
+    fullName: Common.name
+    langs:
+      - typeScript
+    type: property
+    syntax:
+      content: 'name: string;'
+      return:
+        type:
+          - string
+    parent: 'input-manager!Common:interface'
+    alias:
+      - 'input-manager!Common#name'
+      - 'Common#name:member'
+      - 'Common#name'
+      - 'name:member'
+      - name
+references:
+  - uid: string
